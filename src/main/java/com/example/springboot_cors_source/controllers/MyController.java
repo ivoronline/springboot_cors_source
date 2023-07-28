@@ -6,9 +6,12 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class MyController {
 
-  @GetMapping("/Hello")
-  public String hello() {
-    return "Test";
+  //=======================================================================
+  // SOURCE
+  //=======================================================================
+  @GetMapping("/Source")
+  public String source() {
+    return "Source";
   }
 
 }

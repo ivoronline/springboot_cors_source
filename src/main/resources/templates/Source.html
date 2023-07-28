@@ -1,0 +1,9 @@
+<title>Source.html</title>
+
+<p>Hello from Source.html</p>
+
+<script>
+    var request = new XMLHttpRequest();
+    request.open('GET', 'http://localhost:8085/Destination');
+    request.send();         //This line will throw CORS Error
+</script>
